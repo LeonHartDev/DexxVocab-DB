@@ -48,14 +48,14 @@
       "chatgpt"
     ],
     "promptType": "text",
-    "status": "published",
+    "status": "trash",
     "promptPath": "prompts/combinations/chatgpt-claude-gemini/prompt_deterministic_sql_optimizer/prompt.txt",
     "bannerUrl": "https://files.catbox.moe/iuybtv.jpg",
     "content": "Analyze the provided SQL query against PostgreSQL 16+ execution planner heuristics.\nEvaluate:\n1. Index scan vs Sequential scan trade-offs.\n2. CTE materialization vs subquery inlining.\n3. Partition pruning compatibility.\n4. Concurrency lock contention risks (e.g. SELECT FOR UPDATE SKIP LOCKED).\nOutput rewritten query and EXPLAIN (ANALYZE, BUFFERS) validation strategy.",
     "verifiedCreator": true,
     "downloads": 28,
     "createdAt": "2026-08-14T15:30:00.000Z",
-    "updatedAt": "2026-08-15T09:15:00.000Z",
+    "updatedAt": "2026-08-15T15:43:46.082Z",
     "currentVersion": 1,
     "versions": [
       {
