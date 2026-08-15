@@ -5,5 +5,12 @@
     "verified": true,
     "canAddPrompt": true,
     "isOwner": true
+  },
+  {
+    "username": "Haikal",
+    "key": "Haikal",
+    "verified": true,
+    "canAddPrompt": false,
+    "isOwner": false
   }
 ]
