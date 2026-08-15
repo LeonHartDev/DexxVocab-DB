@@ -14,5 +14,20 @@
     "hasBanner": false,
     "createdAt": "2026-08-15T12:21:13.470Z",
     "updatedAt": "2026-08-15T12:21:13.470Z"
+  },
+  {
+    "id": "adbd02fa-3c58-4a27-9131-19eb926c3e39",
+    "title": "File Prompt Demo",
+    "creatorId": "4ddfd448-c8e2-4292-b66a-a1a2fb9da449",
+    "supportedAi": [
+      "Gemini"
+    ],
+    "type": "file",
+    "content": null,
+    "filename": "test.txt",
+    "hasFile": true,
+    "hasBanner": false,
+    "createdAt": "2026-08-15T12:22:09.314Z",
+    "updatedAt": "2026-08-15T12:22:09.314Z"
   }
 ]
