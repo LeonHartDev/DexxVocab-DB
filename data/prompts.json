@@ -1,14 +1,5 @@
 [
   {
-    "id": "1786794596330-3x93r7",
-    "creator": "DexxDev",
-    "model": "Kimi",
-    "method": "text",
-    "text": "test",
-    "bannerPath": "uploads/banners/1786794596330-3x93r7-68571.jpg",
-    "createdAt": "2026-08-15T11:49:59.485Z"
-  },
-  {
     "id": "5011ee85-7eb0-4acd-8a06-e0ae2735c0ca",
     "title": "My First Test Prompt",
     "creatorId": "4ddfd448-c8e2-4292-b66a-a1a2fb9da449",
