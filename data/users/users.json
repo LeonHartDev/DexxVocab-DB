@@ -1,0 +1,24 @@
+[
+  {
+    "id": "user-txTdn8CYiNeV",
+    "username": "DexxDev",
+    "role": "owner",
+    "verified": true,
+    "canCreatePrompt": true,
+    "canCreateUsers": true,
+    "createdAt": "2026-08-15T14:27:35.580Z",
+    "updatedAt": "2026-08-15T14:27:35.588Z",
+    "keyHash": "c2ec119bdadaae8d1f54f3ac066d15dd1d42392bd5c315f9c768fbeca3248ed4"
+  },
+  {
+    "id": "user-7J4ahgVoQD9M",
+    "username": "testuser",
+    "role": "user",
+    "verified": true,
+    "canCreatePrompt": false,
+    "canCreateUsers": false,
+    "createdAt": "2026-08-15T14:30:56.959Z",
+    "updatedAt": "2026-08-15T14:30:56.963Z",
+    "keyHash": "24f106f94c2999605eebe3888306ce4a135efd087c47c91c5a392ca0e2071d67"
+  }
+]
