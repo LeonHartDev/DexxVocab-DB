@@ -85,14 +85,14 @@
       "nemotron"
     ],
     "promptType": "text",
-    "status": "published",
+    "status": "trash",
     "promptPath": "prompts/combinations/deepseek-grok-nemotron/prompt_deepseek_cot_scratchpad/prompt.txt",
     "bannerUrl": "https://files.catbox.moe/iuybtv.jpg",
     "content": "<thought_process_framework>\nBefore emitting the final answer:\n1. Formulate 3 distinct hypotheses regarding the core problem constraints.\n2. Identify potential logical traps, edge cases, and boundary zero-conditions.\n3. Conduct step-by-step verification of mathematical equations or algorithmic proofs.\n4. Reject invalidated paths explicitly inside <verification_trace>.\n5. Emit final synthesized conclusion only after constraint satisfaction is 100% verified.\n</thought_process_framework>",
     "verifiedCreator": true,
     "downloads": 87,
     "createdAt": "2026-08-13T10:00:00.000Z",
-    "updatedAt": "2026-08-15T11:00:00.000Z",
+    "updatedAt": "2026-08-15T15:43:52.065Z",
     "currentVersion": 1,
     "versions": [
       {
