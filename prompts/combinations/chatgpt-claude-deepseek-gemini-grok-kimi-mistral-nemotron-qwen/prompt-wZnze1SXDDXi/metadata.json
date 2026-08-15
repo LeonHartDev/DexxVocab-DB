@@ -1,0 +1,26 @@
+{
+  "id": "prompt-wZnze1SXDDXi",
+  "title": "testtst",
+  "creatorId": "user-txTdn8CYiNeV",
+  "creatorUsername": "DexxDev",
+  "supportedAI": [
+    "ChatGPT",
+    "Claude",
+    "Qwen",
+    "Gemini",
+    "DeepSeek",
+    "Mistral",
+    "Nemotron",
+    "Grok",
+    "Kimi"
+  ],
+  "promptType": "text",
+  "status": "published",
+  "promptPath": "prompts/combinations/chatgpt-claude-deepseek-gemini-grok-kimi-mistral-nemotron-qwen/prompt-wZnze1SXDDXi/prompt.txt",
+  "bannerPath": "https://files.catbox.moe/iuybtv.jpg",
+  "verifiedCreator": true,
+  "downloads": 0,
+  "createdAt": "2026-08-15T14:29:43.841Z",
+  "updatedAt": "2026-08-15T14:29:43.841Z",
+  "currentVersion": 1
+}
