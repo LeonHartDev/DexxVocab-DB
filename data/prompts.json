@@ -1,1 +1,157 @@
-[]
+[
+  {
+    "id": "prompt_master_arch_auditor",
+    "title": "Master Architecture Auditor & Refactoring Agent",
+    "creatorId": "4ddfd448-c8e2-4292-b66a-a1a2fb9da449",
+    "creatorUsername": "DexxDev",
+    "supportedAI": [
+      "chatgpt",
+      "claude",
+      "deepseek"
+    ],
+    "promptType": "text",
+    "status": "published",
+    "promptPath": "prompts/combinations/chatgpt-claude-deepseek/prompt_master_arch_auditor/prompt.txt",
+    "bannerUrl": "https://files.catbox.moe/iuybtv.jpg",
+    "content": "<system_role>\nYou are a Principal Software Architect and Systems Design Auditor.\nYour objective is to inspect, dissect, and ruthlessly optimize codebase structures for maintainability, memory bounds, thread-safety, and cognitive load.\n</system_role>\n\n<operating_rules>\n1. Identify code smells: God objects, deep inheritance trees, silent exception swallowing, uncontrolled side-effects.\n2. Provide concrete before/after diffs highlighting performance deltas.\n3. Adhere strictly to hexagonal/clean architecture boundaries.\n4. Output structured markdown analysis with executable refactoring steps.\n</operating_rules>",
+    "verifiedCreator": true,
+    "downloads": 42,
+    "createdAt": "2026-08-15T08:00:00.000Z",
+    "updatedAt": "2026-08-15T12:00:00.000Z",
+    "currentVersion": 1,
+    "versions": [
+      {
+        "version": 1,
+        "title": "Master Architecture Auditor & Refactoring Agent",
+        "promptType": "text",
+        "content": "Initial release of architecture auditor prompt.",
+        "bannerUrl": "https://files.catbox.moe/iuybtv.jpg",
+        "supportedAI": [
+          "chatgpt",
+          "claude",
+          "deepseek"
+        ],
+        "createdAt": "2026-08-15T08:00:00.000Z",
+        "createdBy": "DexxDev",
+        "changeNote": "Initial published version"
+      }
+    ]
+  },
+  {
+    "id": "prompt_deterministic_sql_optimizer",
+    "title": "Deterministic SQL Query Optimizer & Execution Explainer",
+    "creatorId": "4ddfd448-c8e2-4292-b66a-a1a2fb9da449",
+    "creatorUsername": "DexxDev",
+    "supportedAI": [
+      "claude",
+      "gemini",
+      "chatgpt"
+    ],
+    "promptType": "text",
+    "status": "published",
+    "promptPath": "prompts/combinations/chatgpt-claude-gemini/prompt_deterministic_sql_optimizer/prompt.txt",
+    "bannerUrl": "https://files.catbox.moe/iuybtv.jpg",
+    "content": "Analyze the provided SQL query against PostgreSQL 16+ execution planner heuristics.\nEvaluate:\n1. Index scan vs Sequential scan trade-offs.\n2. CTE materialization vs subquery inlining.\n3. Partition pruning compatibility.\n4. Concurrency lock contention risks (e.g. SELECT FOR UPDATE SKIP LOCKED).\nOutput rewritten query and EXPLAIN (ANALYZE, BUFFERS) validation strategy.",
+    "verifiedCreator": true,
+    "downloads": 28,
+    "createdAt": "2026-08-14T15:30:00.000Z",
+    "updatedAt": "2026-08-15T09:15:00.000Z",
+    "currentVersion": 1,
+    "versions": [
+      {
+        "version": 1,
+        "title": "Deterministic SQL Query Optimizer & Execution Explainer",
+        "promptType": "text",
+        "bannerUrl": "https://files.catbox.moe/iuybtv.jpg",
+        "supportedAI": [
+          "claude",
+          "gemini",
+          "chatgpt"
+        ],
+        "createdAt": "2026-08-14T15:30:00.000Z",
+        "createdBy": "DexxDev",
+        "changeNote": "Initial index"
+      }
+    ]
+  },
+  {
+    "id": "prompt_deepseek_cot_scratchpad",
+    "title": "Deep Reasoning Chain-of-Thought Scratchpad & Verifier",
+    "creatorId": "4ddfd448-c8e2-4292-b66a-a1a2fb9da449",
+    "creatorUsername": "DexxDev",
+    "supportedAI": [
+      "deepseek",
+      "grok",
+      "nemotron"
+    ],
+    "promptType": "text",
+    "status": "published",
+    "promptPath": "prompts/combinations/deepseek-grok-nemotron/prompt_deepseek_cot_scratchpad/prompt.txt",
+    "bannerUrl": "https://files.catbox.moe/iuybtv.jpg",
+    "content": "<thought_process_framework>\nBefore emitting the final answer:\n1. Formulate 3 distinct hypotheses regarding the core problem constraints.\n2. Identify potential logical traps, edge cases, and boundary zero-conditions.\n3. Conduct step-by-step verification of mathematical equations or algorithmic proofs.\n4. Reject invalidated paths explicitly inside <verification_trace>.\n5. Emit final synthesized conclusion only after constraint satisfaction is 100% verified.\n</thought_process_framework>",
+    "verifiedCreator": true,
+    "downloads": 87,
+    "createdAt": "2026-08-13T10:00:00.000Z",
+    "updatedAt": "2026-08-15T11:00:00.000Z",
+    "currentVersion": 1,
+    "versions": [
+      {
+        "version": 1,
+        "title": "Deep Reasoning Chain-of-Thought Scratchpad & Verifier",
+        "promptType": "text",
+        "bannerUrl": "https://files.catbox.moe/iuybtv.jpg",
+        "supportedAI": [
+          "deepseek",
+          "grok",
+          "nemotron"
+        ],
+        "createdAt": "2026-08-13T10:00:00.000Z",
+        "createdBy": "DexxDev",
+        "changeNote": "Initial published release"
+      }
+    ]
+  },
+  {
+    "id": "prompt_type_safe_json_schema",
+    "title": "Type-Safe JSON Schema Output Enforcer",
+    "creatorId": "4ddfd448-c8e2-4292-b66a-a1a2fb9da449",
+    "creatorUsername": "DexxDev",
+    "supportedAI": [
+      "qwen",
+      "mistral",
+      "chatgpt",
+      "claude"
+    ],
+    "promptType": "file",
+    "status": "published",
+    "fileName": "json_schema_enforcer.json",
+    "fileSize": 1024,
+    "promptPath": "prompts/combinations/chatgpt-claude-mistral-qwen/prompt_type_safe_json_schema/json_schema_enforcer.json",
+    "bannerUrl": "https://files.catbox.moe/iuybtv.jpg",
+    "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"DeterministicAgentResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"confidence_score\": {\n      \"type\": \"number\",\n      \"minimum\": 0,\n      \"maximum\": 1\n    },\n    \"reasoning_steps\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"executable_payload\": {\n      \"type\": \"object\"\n    },\n    \"error_conditions\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"required\": [\n    \"confidence_score\",\n    \"reasoning_steps\",\n    \"executable_payload\"\n  ],\n  \"additionalProperties\": false\n}",
+    "verifiedCreator": true,
+    "downloads": 65,
+    "createdAt": "2026-08-12T14:00:00.000Z",
+    "updatedAt": "2026-08-14T18:00:00.000Z",
+    "currentVersion": 1,
+    "versions": [
+      {
+        "version": 1,
+        "title": "Type-Safe JSON Schema Output Enforcer",
+        "promptType": "file",
+        "fileName": "json_schema_enforcer.json",
+        "fileSize": 1024,
+        "bannerUrl": "https://files.catbox.moe/iuybtv.jpg",
+        "supportedAI": [
+          "qwen",
+          "mistral",
+          "chatgpt",
+          "claude"
+        ],
+        "createdAt": "2026-08-12T14:00:00.000Z",
+        "createdBy": "DexxDev",
+        "changeNote": "Initial file prompt release"
+      }
+    ]
+  }
+]
