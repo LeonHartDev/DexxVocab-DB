@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "4ddfd448-c8e2-4292-b66a-a1a2fb9da449",
+    "username": "DexxDev",
+    "key": "Dexx",
+    "role": "owner",
+    "verified": true,
+    "canCreatePrompt": true,
+    "canCreateUsers": true,
+    "createdAt": "2026-08-15T12:21:05.906Z",
+    "updatedAt": "2026-08-15T12:21:05.906Z"
+  }
+]
